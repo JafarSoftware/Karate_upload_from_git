@@ -215,8 +215,7 @@ Feature: test file
     When method get
     Then status 400
 
-
-  Scenario: dont remember what this one is
+  Scenario: Don't remember what this one is
     Given url 'https://reqres.in/api/unknown'
     When method get
     Then status 200
